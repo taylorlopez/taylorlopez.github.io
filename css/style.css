@@ -150,11 +150,12 @@ section {
 /* Bottom Section */
 
 #to-the-top{
+    float: right;
     color: #fefefe;
     background-color: #2ec371;
     padding: 20px;
     border-radius: 35px;
-    position: absolute;
+    position: relative;
     bottom: 10px;
     right: 10px;
 }
