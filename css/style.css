@@ -86,7 +86,6 @@ section {
   background-size: cover;
 }
 
-
 #top h1 {
 	color: #2ec371;
 	font-weight: 800;
@@ -97,6 +96,25 @@ section {
 	font-weight: 200;
 }
 
+#top input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#top input[type="submit"]{
+    background-color: #2ec371;
+    border-color: #2ec371;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#top fieldset{
+    width: 400px;
+    margin: 20px auto;
+}
 .credentials{
     font-weight: 600;
     color: #2ec371;
