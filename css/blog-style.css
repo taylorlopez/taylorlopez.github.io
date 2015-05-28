@@ -115,18 +115,17 @@ footer {
 }
 
 footer ul {
-    padding-top: 20px;
     display: flex;
-    align-items: center;
-    text-align: center;
     height: 60px;
 }
 
 footer a {
     flex-grow: 1;
-    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer a:hover {
-    background-color: #222;
+    background-color: #a1a4a9;
 }
