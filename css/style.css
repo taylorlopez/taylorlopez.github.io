@@ -93,7 +93,7 @@ header {
   background-color: #cbd0d2;
   padding-top: 100px;
   padding-bottom: 100px;
-  background: url('../images/hero-bg-dark.jpg') no-repeat center center;
+  background: url('../images/6k1gyk7wnp_601087_1920x1080.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -123,7 +123,7 @@ header {
 
 #top input[type="text"]:focus {
 	outline: 0;
-  border: 1px solid red;
+  border: 2px solid red;
 }
 
 #top input[type="submit"] {
@@ -148,6 +148,11 @@ header {
   float: left;
   margin-right: 30px;
   margin-bottom: 20px;
+  border-radius: 102px;
+  height: 200px;
+  width: 200px;
+  border: 1px solid;
+  border-color: black;
 }
 
 /* Bottom Section */
@@ -177,11 +182,10 @@ header {
 .one-half {
   background-color: #fefefe;
   border: 1px solid #ececec;
-  width: 48%;
+  width: 50%;
   /*float: left;*/
   display: inline-block;
   padding: 30px 20px;
-  margin: 1%;
   vertical-align: top;
 }
 
@@ -193,6 +197,14 @@ header {
   position: fixed;
   bottom: 10px;
   right: 10px;
+}
+
+.one-half ul {
+  font-size: 14px;
+}
+
+.one-half #last-li{
+  padding-bottom: 15px;
 }
 
 /* Projects Page */
