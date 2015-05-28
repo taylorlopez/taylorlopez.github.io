@@ -259,14 +259,14 @@ header {
 	background-color: #357ebd;
 }
 
-/* 
+/*
 
 /* clearfix */
 .row:before,
 .row:after, .clearfix:before, .clearfix:after {
     content: "";
     display: table;
-} 
+}
 .row:after, .clearfix:after {
     clear: both;
 }
