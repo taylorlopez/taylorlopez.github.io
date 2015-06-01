@@ -1,23 +1,69 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <link href="css/reset.css" rel="stylesheet">
-    <link href="treehouse.css" rel="stylesheet">
-    <title>TreeHouse Header</title>
+    <title>treehouse</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="treehouseflex.css">
 </head>
 <body>
+
 <header>
-    <div class="container">
-        <p id="header-title">treehouse</p>
-        <ul id="header-nav">
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Stories</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Sign In</a></li>
-            <li><a id="free-trial" href="#">Free Trial</a></li>
-        </ul>
+    <div class="container flex">
+        <h1>treehouse</h1>
+        <nav>
+            <ul id="firstlevel">
+                <li>
+                    <a href="#">Features</a>
+                    <ul>
+                        <li><a href="#">Good Courses</a></li>
+                        <li><a href="#">Great Teachers</a></li>
+                        <li><a href="#">Real World Skills</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Stories</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Sign in</a></li>
+                <li><a id="free-trial" href="#">Free trial</a></li>
+            </ul>
+        </nav>
     </div>
 </header>
+    <section id="banner">
+        <img src="images/services-banner_1920x300.jpg" />
+    </section>
+    <article class="container flex" id="main-aside-section">
+        <aside>sidebar</aside>
+        <main>main</main>
+        <aside>sidebar</aside>
+    </article>
+    <main>
+        <section class="container">
+            <h3>Tech Education Redesigned</h3>
+            <p class="lead">We've rethought the learning process and built a proven
+                system to get you the skills and knowledge you need to accomplish your goals.</p>
+            <div class="row">
+                <div class="one-third">
+                    <img class="small-svg" src="svg/cogwheels10.svg"/>
+                    <h3>Get Started</h3>
+                    <p>We're here to help you get started. Whether you are looking for a new career, want to learn to code for fun,
+                        or want to keep your skills cutting edge for your job, we will help you start down the right path.</p>
+                </div>
+                <div class="one-third">
+                    <img class="small-svg" src="svg/computer%20screen13.svg"/>
+                    <h3>Learn and Build</h3>
+                    <p>Learn by actually building something yourself! By watching our course videos and coding along in Workspaces,
+                        our browser-based code editor, you can see the results of your work in real-time.</p>
+                </div>
+                <div class="one-third">
+                    <img class="small-svg" src="svg/like7.svg"/>
+                    <h3>Share Your Work</h3>
+                    <p>Take advantage of our robust community of students, alumni and
+                        teachers who can review your work, problem-solve and offer support.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
 </body>
 </html>
