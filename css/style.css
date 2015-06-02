@@ -126,7 +126,7 @@ header {
   border: 2px solid red;
 }
 
-#top input[type="submit"] {
+#form-submit {
   padding: 15px;
   background-color: #2ec371;
   border: 1px solid #2ec371;
@@ -136,6 +136,10 @@ header {
   right: 0;
   top: 0;
   color: #fefefe;
+}
+
+#form-submit:hover{
+  cursor: pointer;
 }
 
 #top input[type="submit"]:hover {
