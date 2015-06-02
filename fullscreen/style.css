@@ -158,7 +158,7 @@ article li {
 }
 
 @media (max-width: 767px) {
-    aside{
+    aside {
         display: none;
     }
 
@@ -169,6 +169,7 @@ article li {
     #example {
         flex: 0 1 56px;
     }
+}
 
 main a {
     text-decoration: none;
